@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    border:0px;
+    padding: 0px;
+    
+    
+}
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    top:0px;
+}
+header img{
+    width: 15px;
+    height: 15px;
+}
+main{
+    width: 100%;
+    
+}
+#main_wrap {
+    width: 600px;
+    margin: 200px auto 0px auto;
+}
+#logo{
+    width:274px;
+    margin:auto;
+}
+#searchbar{
+    display: block;
+    width: 500px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(175, 171, 171);
+    border-width: 1px;
+    margin:auto;
+    border-radius: 30px;    
+}
+#button_box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#button_box input{
+    width:110px;
+    height:40px;
+    margin: 20px 5px 20px 5px;
+    background-color: rgb(228, 222, 213);
+    color: rgb(161, 155, 146);
+}
+#main_bottom_text{
+    text-align: center;
+}
